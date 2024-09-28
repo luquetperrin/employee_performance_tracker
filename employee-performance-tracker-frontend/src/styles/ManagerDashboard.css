@@ -1,0 +1,51 @@
+.manager-dashboard-container {
+    padding: 20px;
+}
+
+.manager-dashboard-container h2 {
+    color: #2b2b2b;
+}
+
+.manager-dashboard-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Space between button and user list */
+}
+
+.manager-dashboard-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.user-list {
+    margin-top: 20px; /* Add space before user list */
+}
+
+.user-list h3 {
+    color: #555;
+}
+
+.user-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-list li {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between; /* Align username and edit button */
+}
+
+.manager-error {
+    color: red;
+    text-align: center;
+}
+
+.manager-loading {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; /* Center the loading message */
+}
